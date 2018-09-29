@@ -1,0 +1,37 @@
+{
+  "name": "extum/flarum-ext-sidenav",
+  "description": "Sidenav theme for Flarum.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta-7"
+  },
+  "authors": [
+    {
+      "name": "Extum",
+      "email": "ardacebi1@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Extum\\SideNav\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "SideNav",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
